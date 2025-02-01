@@ -46,6 +46,7 @@ license=(
   'GPL2'
 )
 depends=(
+  'retroarch'
 )
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
